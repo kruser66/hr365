@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  web:
+    build:
+      context: .
+    container_name: fastapi_app
+    ports:
+      - 8080:8000
